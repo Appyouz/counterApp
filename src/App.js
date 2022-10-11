@@ -12,7 +12,7 @@ const App = () => {
       <h1>{counter}</h1>
       <button type="submit" onClick={() => setCounter((prevCounter) => prevCounter + 1)}>Increase</button>
       <button type="submit" onClick={() => setCounter((prevCounter) => prevCounter - 1)}>Decrease</button>
-      <button type="submit" onClick={() => setCounter((prevCounter) => prevCounter = 0)}>Reset</button>
+      <button type="submit" onClick={() => setCounter(0)}>Reset</button>
       
    </div>
   );
